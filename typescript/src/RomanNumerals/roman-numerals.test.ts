@@ -13,7 +13,8 @@ describe('RomanNumeral Test Module', () => {
 
   it('Converts the value to the roman numeral equivalent.', () => {
     expect(romanNumerals.convertToRoman(1)).toEqual('I')
-    // expect(romanNumerals.generate(2)).toEqual('II')
+    expect(romanNumerals.convertToRoman(2)).toEqual('II')
+    expect(romanNumerals.convertToRoman(3)).toEqual('III')
   });
 
 

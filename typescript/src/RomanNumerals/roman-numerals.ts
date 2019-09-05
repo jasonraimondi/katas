@@ -1,5 +1,8 @@
 export class RomanNumerals {  
     public convertToRoman(romanNumeral: number): string {
-        return 'I';
+        if (romanNumeral == 1) {
+            return "I"
+        }
+        return "II";
     }
 }

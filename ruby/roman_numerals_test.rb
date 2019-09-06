@@ -17,7 +17,8 @@ class RomanNumeralTest < Minitest::Test
 
   def test_converts_integer_to_roman_numeral_string
     assert_equal("I", @roman_numeral.convert_to_string(1))
-    assert_equal("I", @roman_numeral.convert_to_string(2))
+    assert_equal("II", @roman_numeral.convert_to_string(2))
+    assert_equal("III", @roman_numeral.convert_to_string(3))
   end
 
   def test_converts_integer_to_roman_numeral_string_all
